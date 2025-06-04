@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.marketplace-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    color: #00bfff;
+    letter-spacing: 1px;
+}
+
+.nav-link-custom {
+    color: #ffffffcc !important;
+    font-weight: 500;
+    margin-right: 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link-custom:hover {
+    color: #00bfff !important;
+}
+
+.navbar-brand img {
+    border: 2px solid #ffffff22;
+    background-color: #1a1a1a;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
