@@ -4,8 +4,8 @@ import axios from 'axios';
 import { Row, Form, Button } from 'react-bootstrap';
 
 // Pinata API keys
-const pinataApiKey = 'a9e537b0327d454669a7';
-const pinataSecretApiKey = 'd1626b16f7bf16a9eee946605d3706aa3b4f7b1c3c20589d830438ccaab211a1';
+const pinataApiKey = '';
+const pinataSecretApiKey = '';
 
 const Create = ({ marketplace, nft }) => {
   const [image, setImage] = useState('');
