@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier:MIT
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
@@ -11,7 +11,7 @@ contract Marketplace is ReentrancyGuard {
 
     // Variables
     address payable public immutable feeAccount; // the account that receives fees
-    uint public immutable feePercent; // the fee percentage on sales 
+    uint public immutable feePercent; // the fee percentage on sales
     uint public itemCount; 
 
     struct Item {
