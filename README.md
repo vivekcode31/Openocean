@@ -1,1 +1,1 @@
-This ia nft marketplace project 
+This ia nft marketplace project built-on Ethereum testnet
